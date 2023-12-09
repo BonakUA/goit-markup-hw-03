@@ -68,7 +68,8 @@ button {
 
 .nav {
     display: flex;
-    align-items: center
+    align-items: center;
+    
 }
 
 .logo {
@@ -256,11 +257,13 @@ button {
 
 /* team */
 
-.team {}
+.team {
+    
+}
 
 .container-team {
     background-color: #F4F4FD;
-    padding: 120px 0
+    
 }
 
 
@@ -306,10 +309,12 @@ button {
 
 /* portfolio*/
 
-.portfolio {}
+.portfolio {
+    padding: 120px 0;
+}
 
 .container-portfolio {
-    padding: 120px 0;
+    
 }
 
 .portfolio-list {
@@ -317,18 +322,21 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
     padding-bottom: 32px;
     margin-bottom: 48px;
-    border: 1px solid #E7E9FC;
     background-color: #FFFFFF;
     border-top: none;
+    border: 1px solid #E7E9FC;
 }
 
-.portfolio-img {}
+.portfolio-img {
+    
+}
 
 .iner-two {
     padding: 32px 16px;
@@ -347,11 +355,12 @@ button {
 
 /* FOOTER */
 
-.footer {}
+.footer {
+    padding: 100px 0
+}
 
 .container-footer {
     background-color: #2E2F42;
-    padding: 100px 0;
 }
 
 .logo-footer {
