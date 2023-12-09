@@ -92,11 +92,12 @@ button {
     display: flex;
     width: 261px;
     gap: 40px;
-    padding: 24px 0;
+    
 
 }
 
 .nav-item {
+    padding: 24px 0;
     
 }
 
