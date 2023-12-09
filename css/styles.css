@@ -53,13 +53,13 @@ button {
 
 .header {
     padding: 0 15px;
+    border-bottom: 1px solid #e7e9fc;
     
 }
 
 .container-header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -81,6 +81,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    margin-bottom: 16px;
 }
 
 .logo-header {
@@ -91,11 +92,12 @@ button {
     display: flex;
     width: 261px;
     gap: 40px;
+    padding: 24px 0;
 
 }
 
 .nav-item {
-    padding: 24px 0;
+    
 }
 
 
@@ -125,11 +127,11 @@ button {
 
 .adres-item {
     padding: 24px 0;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 .adres-item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .adres-link {
@@ -146,11 +148,12 @@ button {
 
 /* HERO */
 
-.hero {}
+.hero {
+    padding: 188px 0;
+}
 
 .container-hero {
     background-color: #2E2F42;
-    padding: 188px 0;
 }
 
 
@@ -191,10 +194,12 @@ button {
 
 /* Capabilities */
 
-.section {}
+.section {
+    padding: 120px 0;
+}
 
 .container-section {
-    padding: 120px 0
+    
 }
 
 .visually-hidden {
@@ -217,7 +222,6 @@ button {
 
 .item-feature {
     width: calc((100% - 72px) / 4);
-    width: 264px;
     margin-right: 24px;
 }
 
@@ -252,11 +256,13 @@ button {
 
 /* team */
 
-.team {}
+.team {
+    padding: 120px 0;
+}
 
 .container-team {
     background-color: #F4F4FD;
-    padding: 120px 0;
+    
 }
 
 
@@ -302,11 +308,13 @@ button {
 
 /* portfolio*/
 
-.portfolio {}
-
-.container-portfolio {
+.portfolio {
     padding-top: 120px; padding-bottom: 120px;
 }
+
+
+.container-portfolio {}
+    
 
 .portfolio-list {
     display: flex;
@@ -346,11 +354,13 @@ button {
 
 /* FOOTER */
 
-.footer {}
+.footer {
+    padding: 100px 0;
+}
 
 .container-footer {
     background-color: #2E2F42;
-    padding: 100px 0;
+    
 }
 
 .logo-footer {
